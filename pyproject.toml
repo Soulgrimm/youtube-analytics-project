@@ -8,6 +8,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.11"
 self = "^2020.12.3"
+isodate = "^0.6.1"
 
 
 [build-system]
