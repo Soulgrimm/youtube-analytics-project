@@ -61,6 +61,5 @@ class PlayList:
             if int(video['statistics']['likeCount']) > count_likes:
                 most_like_video_id = video['id']
                 count_likes = int(video['statistics']['likeCount'])
-            continue
 
         return f'https://youtu.be/{most_like_video_id}'
